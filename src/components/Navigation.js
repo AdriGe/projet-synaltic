@@ -4,19 +4,15 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div className="navigation">
-            <NavLink exact to="/accueil"activeClassName="nav-active">
+            <NavLink exact to="/" activeClassName="nav-active">
                 Accueil
             </NavLink>
-            <NavLink exact to="/zone-de-code"activeClassName="nav-active">
-                Zone de code
+            <NavLink exact to="/zone-de-code" activeClassName="nav-active">
+                Zone De Code
             </NavLink>
-            <NavLink exact to="/resultats-precedents"activeClassName="nav-active">
-                Résultats précédents
-            </NavLink>
-            <NavLink exact to="/historique-des-actions"activeClassName="nav-active">
-                Historique des actions
-            </NavLink>
-            
+            <NavLink exact to="/resultats-precedents" activeClassName="nav-active">
+                Résultats Précédents
+            </NavLink>            
         </div>
     );
 };

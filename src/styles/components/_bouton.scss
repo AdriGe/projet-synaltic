@@ -1,0 +1,55 @@
+button {
+    background: none;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    width: 170px;
+    border-radius: 30px;
+    
+    border-style: solid;
+    border-width: 1px;
+}
+
+button:active {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    border-color: rgb(68, 68, 68)
+}
+
+.coderBien {
+    color: #82ca9d;
+    border-color: #82ca9d;
+}
+
+.coderBien:hover {
+    background-color: #82ca9d;
+    color: white;
+    border-color: #82ca9d;
+}
+
+
+
+.coderVite {
+    color: #e4aa0d;
+    border-color: #e4aa0d;
+}
+
+.coderVite:hover {
+    background-color: #e4aa0d;
+    color: white;
+    border-color: #e4aa0d;
+}
+
+.tester {
+    color: #2489cc;
+    border-color: #2489cc;
+}
+
+.recommencer {
+    color: #7c7c7c;
+    border-color: #7c7c7c;
+}

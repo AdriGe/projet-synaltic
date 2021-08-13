@@ -1,21 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Score extends Component  {
-    constructor(props) {
-        super(props);
-        this.score=props.score;
-        this.state = {                  // state est un dictiionnaire contenant toutes les variables d'état, ici on crée une variable d'étéat score utilisateur que l'on initialise à 0
-            scoreUtilisateur: 0
-        }
-    }
+const Score = (props) => {
+    const { texte } = props;
+    const { nombre } = props;
 
-    render() {
-        return(
+    return (
+        <div>
+            {texte} : {nombre}%
             <div>
-                {this.state.scoreUtilisateur}
             </div>
-        );
-    }
-}
+        </div>
+    );
+};
 
 export default Score;
